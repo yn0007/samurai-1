@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+<head> 
+    
+    <title> 天気予報 </title>
+    <meta name="description" content="毎日の気象情報をお知らせします">
+    <meta charset="utf-8">
+
+    <style>
+         p {
+            color: red;
+            font-size: 48px;
+            text-align: left;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--ヘッダー-->
+    <header> 
+        <h1> 天気予報 </h1>
+    <!--
+        <p> このホームページは全国天気予報を紹介します </p>
+        <p> 4時間ごとに最新情報に更新 </p>
+        -->
+    </header>
+    <main>
+        <h2> 今日の天気 </h2>
+        <p> 時々雨でしょう </p>
+        <hr>
+        <!-- hr 水平線 -->
+    </main>
+
+    <h3> 大阪府 </h3>
+    <ul>
+        <li> 今日は雨が降る所もあるでしょう。 </li>
+        <li> 明日は晴れるでしょう。 </li>
+        <li> 週末も晴れるでしょう。 </li>
+    </ul>
+    <!-- ulとli : 箇条書き
+         olとli : 番号付きの箇条書き -->
+    <footer>
+        <p> copyright IITENK inc. copyright All right reserved. </p>
+    </footer>
+
+    <hr>
+
+    <h4> ランチメニュー </h4>
+    <table border="1">
+        <tr>
+            <th> 平日 </th>
+            <th> 土日・祝日 </th>
+        </tr>
+        <tr>
+            <td> Aランチ：雑草定食 </td>
+            <td> Aランチ：泥水定食 </td>
+        </tr>
+        <tr>
+            <td> Bランチ：魔物定食 </td>
+            <td> Bランチ：勇者定食 </td>
+        </tr>
+    </table>
+    <!-- table : 表作成
+        　tr :
+          th : タグで見出し作成(曜日)
+          td : タグでメニュー内容を作成 -->
+    <hr>
+
+    <form>
+        <label>氏名</label> 
+        <input type="text" placeholder="名前を入力してください">
+     <br>
+
+     <label>年代</label> 
+     <select> 
+       <option>10代以下</option> 
+       <option>20代</option> 
+       <option>30代</option> 
+       <option>40代以上</option> 
+     </select>
+     <br> 
+
+     <label>お問い合わせ内容</label> 
+     <textarea></textarea> 
+     <br> 
+
+     <label>男性</label><input type="radio" name="gender"> 
+     <label>女性</label><input type="radio" name="gender"> 
+     <label>その他</label><input type="radio" name="gender"> 
+     <br> 
+
+     <label>利用規約に同意する</label> 
+     <input type="checkbox"> 
+     <br> 
+     <br>
+
+     <input type="submit" value="送信">
+     <input type="reset" value="リセット">
+
+    </form>
+    <hr>
+
+    <h5>ヘッドラインニュース</h5> 
+     <nav>
+       <a href="layout.html">ホーム</a>
+       <a href="https://www.google.com">スポーツ</a>
+       <a href="https://www.google.com">経済</a>
+       <a href="https://www.google.com">天気</a>
+     </nav> 
+
+</body>
+
+
+</html>
